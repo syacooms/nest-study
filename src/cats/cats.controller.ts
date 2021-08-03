@@ -13,7 +13,7 @@ export class CatsController {
 
   //cats/id
   @Get(':id')
-  getOneCats() {
+  getOneCat() {
     return 'One cat';
   }
 
